@@ -1,0 +1,8 @@
+{
+  "pRequestId_Load" : "123",
+  "pRequestId_Import" : "456",
+  "pStatus_Load" : "Success",
+  "pStatus_Import" : "Success",
+  "pDirectoryLog" : "/log",
+  "pMailTo" : "demo@demo.com"
+}

@@ -1,0 +1,151 @@
+{
+    "parts": [
+        {
+            "id": "TEST-1533qq633",
+            "path": "xx",
+            "operation": "create",
+            "payload": {
+                "id": 1205,
+                "creationDate": "2024-12-13T10:12:22+00:00",
+                "lastUpdateDate": "2024-12-13T10:12:22.021+00:00",
+                "createdBy": "246294",
+                "lastUpdatedBy": "246294",
+                "poLineId": 1,
+                "amount": null,
+                "lineNum": null,
+                "itemId": null,
+                "itemDescription": "TEST-1533qq4",
+                "unitPrice": null,
+                "quantity": null,
+                "itemNumber": null,
+                "poOrderNum": null,
+                "currency": null,
+                "poStatus": null,
+                "poLineStatus": null,
+                "woNumber": null,
+                "woLine": null,
+                "quantityReceived": null,
+                "quantityInvoiced": null,
+                "receivedAmount": null,
+                "invoicedAmount": null,
+                "poHeaderId": 1,
+                "userName": null,
+                "links": [
+                    {
+                        "rel": "self",
+                        "href": "qq",
+                        "name": "PoLines",
+                        "kind": "item",
+                        "properties": {
+                            "changeIndicator": "xx"
+                        }
+                    },
+                    {
+                        "rel": "canonical",
+                        "href": "qq",
+                        "name": "PoLines",
+                        "kind": "item"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TEST-1533qq65",
+            "path": "qq",
+            "operation": "create",
+            "payload": {
+                "id": 1206,
+                "creationDate": "2024-12-13T10:12:22.012+00:00",
+                "lastUpdateDate": "2024-12-13T10:12:22.027+00:00",
+                "createdBy": "246294",
+                "lastUpdatedBy": "246294",
+                "poLineId": 1,
+                "amount": null,
+                "lineNum": null,
+                "itemId": null,
+                "itemDescription": "TEST-1533qq5",
+                "unitPrice": null,
+                "quantity": null,
+                "itemNumber": null,
+                "poOrderNum": null,
+                "currency": null,
+                "poStatus": null,
+                "poLineStatus": null,
+                "woNumber": null,
+                "woLine": null,
+                "quantityReceived": null,
+                "quantityInvoiced": null,
+                "receivedAmount": null,
+                "invoicedAmount": null,
+                "poHeaderId": 1,
+                "userName": null,
+                "links": [
+                    {
+                        "rel": "self",
+                        "href": "qq",
+                        "name": "PoLines",
+                        "kind": "item",
+                        "properties": {
+                            "changeIndicator": "xx"
+                        }
+                    },
+                    {
+                        "rel": "canonical",
+                        "href": "qq",
+                        "name": "PoLines",
+                        "kind": "item"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "TEST-1533qq6",
+            "path": "qq",
+            "operation": "create",
+            "payload": {
+                "id": 1207,
+                "creationDate": "2024-12-13T10:12:22.018+00:00",
+                "lastUpdateDate": "2024-12-13T10:12:22.030+00:00",
+                "createdBy": "246294",
+                "lastUpdatedBy": "246294",
+                "poLineId": 1,
+                "amount": null,
+                "lineNum": null,
+                "itemId": null,
+                "itemDescription": "TEST-1533qq6",
+                "unitPrice": null,
+                "quantity": null,
+                "itemNumber": null,
+                "poOrderNum": null,
+                "currency": null,
+                "poStatus": null,
+                "poLineStatus": null,
+                "woNumber": null,
+                "woLine": null,
+                "quantityReceived": null,
+                "quantityInvoiced": null,
+                "receivedAmount": null,
+                "invoicedAmount": null,
+                "poHeaderId": 1,
+                "userName": null,
+                "links": [
+                    {
+                        "rel": "self",
+                        "href": "qq",
+                        "name": "PoLines",
+                        "kind": "item",
+                        "properties": {
+                            "changeIndicator": "xx"
+                        }
+                    },
+                    {
+                        "rel": "canonical",
+                        "href": "qq",
+                        "name": "PoLines",
+                        "kind": "item"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,1196 @@
+{
+    "ParsedResults": [
+        {
+            "TextOverlay": {
+                "Lines": [
+                    {
+                        "LineText": "[Company Name]",
+                        "Words": [
+                            {
+                                "WordText": "[Company",
+                                "Left": 49.0,
+                                "Top": 84.0,
+                                "Height": 20.0,
+                                "Width": 96.0
+                            },
+                            {
+                                "WordText": "Name]",
+                                "Left": 153.0,
+                                "Top": 84.0,
+                                "Height": 20.0,
+                                "Width": 60.0
+                            }
+                        ],
+                        "MaxHeight": 20.0,
+                        "MinTop": 84.0
+                    },
+                    {
+                        "LineText": "[Street Address]",
+                        "Words": [
+                            {
+                                "WordText": "[Street",
+                                "Left": 48.0,
+                                "Top": 121.0,
+                                "Height": 13.0,
+                                "Width": 39.0
+                            },
+                            {
+                                "WordText": "Address]",
+                                "Left": 90.0,
+                                "Top": 121.0,
+                                "Height": 13.0,
+                                "Width": 52.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 121.0
+                    },
+                    {
+                        "LineText": "[City, ST ZIP]",
+                        "Words": [
+                            {
+                                "WordText": "[City,",
+                                "Left": 49.0,
+                                "Top": 142.0,
+                                "Height": 13.0,
+                                "Width": 27.0
+                            },
+                            {
+                                "WordText": "ST",
+                                "Left": 82.0,
+                                "Top": 142.0,
+                                "Height": 10.0,
+                                "Width": 16.0
+                            },
+                            {
+                                "WordText": "ZIP]",
+                                "Left": 105.0,
+                                "Top": 142.0,
+                                "Height": 13.0,
+                                "Width": 24.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 142.0
+                    },
+                    {
+                        "LineText": "Phone: (000) 000-0000",
+                        "Words": [
+                            {
+                                "WordText": "Phone:",
+                                "Left": 49.0,
+                                "Top": 162.0,
+                                "Height": 10.0,
+                                "Width": 40.0
+                            },
+                            {
+                                "WordText": "(000)",
+                                "Left": 95.0,
+                                "Top": 162.0,
+                                "Height": 13.0,
+                                "Width": 30.0
+                            },
+                            {
+                                "WordText": "000-0000",
+                                "Left": 129.0,
+                                "Top": 162.0,
+                                "Height": 10.0,
+                                "Width": 55.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 162.0
+                    },
+                    {
+                        "LineText": "Fax: (000) 000-0000",
+                        "Words": [
+                            {
+                                "WordText": "Fax:",
+                                "Left": 49.0,
+                                "Top": 182.0,
+                                "Height": 10.0,
+                                "Width": 24.0
+                            },
+                            {
+                                "WordText": "(000)",
+                                "Left": 78.0,
+                                "Top": 182.0,
+                                "Height": 13.0,
+                                "Width": 30.0
+                            },
+                            {
+                                "WordText": "000-0000",
+                                "Left": 113.0,
+                                "Top": 182.0,
+                                "Height": 10.0,
+                                "Width": 55.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 182.0
+                    },
+                    {
+                        "LineText": "Website:",
+                        "Words": [
+                            {
+                                "WordText": "Website:",
+                                "Left": 48.0,
+                                "Top": 202.0,
+                                "Height": 10.0,
+                                "Width": 51.0
+                            }
+                        ],
+                        "MaxHeight": 10.0,
+                        "MinTop": 202.0
+                    },
+                    {
+                        "LineText": "VENDOR",
+                        "Words": [
+                            {
+                                "WordText": "VENDOR",
+                                "Left": 61.0,
+                                "Top": 245.0,
+                                "Height": 10.0,
+                                "Width": 57.0
+                            }
+                        ],
+                        "MaxHeight": 10.0,
+                        "MinTop": 245.0
+                    },
+                    {
+                        "LineText": "[Company Name]",
+                        "Words": [
+                            {
+                                "WordText": "[Company",
+                                "Left": 49.0,
+                                "Top": 268.0,
+                                "Height": 13.0,
+                                "Width": 59.0
+                            },
+                            {
+                                "WordText": "Name]",
+                                "Left": 113.0,
+                                "Top": 268.0,
+                                "Height": 13.0,
+                                "Width": 38.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 268.0
+                    },
+                    {
+                        "LineText": "[Contact or Department]",
+                        "Words": [
+                            {
+                                "WordText": "[Contact",
+                                "Left": 49.0,
+                                "Top": 288.0,
+                                "Height": 13.0,
+                                "Width": 48.0
+                            },
+                            {
+                                "WordText": "or",
+                                "Left": 102.0,
+                                "Top": 291.0,
+                                "Height": 7.0,
+                                "Width": 11.0
+                            },
+                            {
+                                "WordText": "Department]",
+                                "Left": 118.0,
+                                "Top": 288.0,
+                                "Height": 13.0,
+                                "Width": 72.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 288.0
+                    },
+                    {
+                        "LineText": "[Street Address]",
+                        "Words": [
+                            {
+                                "WordText": "[Street",
+                                "Left": 49.0,
+                                "Top": 308.0,
+                                "Height": 13.0,
+                                "Width": 38.0
+                            },
+                            {
+                                "WordText": "Address]",
+                                "Left": 90.0,
+                                "Top": 308.0,
+                                "Height": 13.0,
+                                "Width": 52.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 308.0
+                    },
+                    {
+                        "LineText": "[City, ST ZIP]",
+                        "Words": [
+                            {
+                                "WordText": "[City,",
+                                "Left": 48.0,
+                                "Top": 328.0,
+                                "Height": 13.0,
+                                "Width": 28.0
+                            },
+                            {
+                                "WordText": "ST",
+                                "Left": 81.0,
+                                "Top": 328.0,
+                                "Height": 10.0,
+                                "Width": 17.0
+                            },
+                            {
+                                "WordText": "ZIP]",
+                                "Left": 105.0,
+                                "Top": 328.0,
+                                "Height": 13.0,
+                                "Width": 24.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 328.0
+                    },
+                    {
+                        "LineText": "Phone: (000) 000-0000",
+                        "Words": [
+                            {
+                                "WordText": "Phone:",
+                                "Left": 49.0,
+                                "Top": 348.0,
+                                "Height": 10.0,
+                                "Width": 40.0
+                            },
+                            {
+                                "WordText": "(000)",
+                                "Left": 95.0,
+                                "Top": 348.0,
+                                "Height": 13.0,
+                                "Width": 30.0
+                            },
+                            {
+                                "WordText": "000-0000",
+                                "Left": 129.0,
+                                "Top": 348.0,
+                                "Height": 10.0,
+                                "Width": 55.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 348.0
+                    },
+                    {
+                        "LineText": "Fax: (000) 000-0000",
+                        "Words": [
+                            {
+                                "WordText": "Fax:",
+                                "Left": 49.0,
+                                "Top": 368.0,
+                                "Height": 10.0,
+                                "Width": 24.0
+                            },
+                            {
+                                "WordText": "(000)",
+                                "Left": 78.0,
+                                "Top": 368.0,
+                                "Height": 13.0,
+                                "Width": 30.0
+                            },
+                            {
+                                "WordText": "000-0000",
+                                "Left": 113.0,
+                                "Top": 368.0,
+                                "Height": 10.0,
+                                "Width": 55.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 368.0
+                    },
+                    {
+                        "LineText": "PURCHASE ORDER",
+                        "Words": [
+                            {
+                                "WordText": "PURCHASE",
+                                "Left": 390.0,
+                                "Top": 78.0,
+                                "Height": 27.0,
+                                "Width": 205.0
+                            },
+                            {
+                                "WordText": "ORDER",
+                                "Left": 609.0,
+                                "Top": 78.0,
+                                "Height": 27.0,
+                                "Width": 132.0
+                            }
+                        ],
+                        "MaxHeight": 27.0,
+                        "MinTop": 78.0
+                    },
+                    {
+                        "LineText": "DATE",
+                        "Words": [
+                            {
+                                "WordText": "DATE",
+                                "Left": 592.0,
+                                "Top": 121.0,
+                                "Height": 10.0,
+                                "Width": 33.0
+                            }
+                        ],
+                        "MaxHeight": 10.0,
+                        "MinTop": 121.0
+                    },
+                    {
+                        "LineText": "SHIP TO",
+                        "Words": [
+                            {
+                                "WordText": "SHIP",
+                                "Left": 458.0,
+                                "Top": 245.0,
+                                "Height": 10.0,
+                                "Width": 30.0
+                            },
+                            {
+                                "WordText": "TO",
+                                "Left": 492.0,
+                                "Top": 245.0,
+                                "Height": 10.0,
+                                "Width": 17.0
+                            }
+                        ],
+                        "MaxHeight": 10.0,
+                        "MinTop": 245.0
+                    },
+                    {
+                        "LineText": "[Name]",
+                        "Words": [
+                            {
+                                "WordText": "[Name]",
+                                "Left": 445.0,
+                                "Top": 268.0,
+                                "Height": 13.0,
+                                "Width": 41.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 268.0
+                    },
+                    {
+                        "LineText": "[Company Name]",
+                        "Words": [
+                            {
+                                "WordText": "[Company",
+                                "Left": 444.0,
+                                "Top": 288.0,
+                                "Height": 13.0,
+                                "Width": 60.0
+                            },
+                            {
+                                "WordText": "Name]",
+                                "Left": 509.0,
+                                "Top": 288.0,
+                                "Height": 13.0,
+                                "Width": 38.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 288.0
+                    },
+                    {
+                        "LineText": "[Street Address]",
+                        "Words": [
+                            {
+                                "WordText": "[Street",
+                                "Left": 445.0,
+                                "Top": 308.0,
+                                "Height": 13.0,
+                                "Width": 38.0
+                            },
+                            {
+                                "WordText": "Address]",
+                                "Left": 486.0,
+                                "Top": 308.0,
+                                "Height": 13.0,
+                                "Width": 52.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 308.0
+                    },
+                    {
+                        "LineText": "[City, ST ZIP]",
+                        "Words": [
+                            {
+                                "WordText": "[City,",
+                                "Left": 444.0,
+                                "Top": 328.0,
+                                "Height": 13.0,
+                                "Width": 28.0
+                            },
+                            {
+                                "WordText": "ST",
+                                "Left": 477.0,
+                                "Top": 328.0,
+                                "Height": 10.0,
+                                "Width": 17.0
+                            },
+                            {
+                                "WordText": "ZIP]",
+                                "Left": 501.0,
+                                "Top": 328.0,
+                                "Height": 13.0,
+                                "Width": 24.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 328.0
+                    },
+                    {
+                        "LineText": "REQUISITIONER",
+                        "Words": [
+                            {
+                                "WordText": "REQUISITIONER",
+                                "Left": 54.0,
+                                "Top": 411.0,
+                                "Height": 11.0,
+                                "Width": 104.0
+                            }
+                        ],
+                        "MaxHeight": 11.0,
+                        "MinTop": 411.0
+                    },
+                    {
+                        "LineText": "ITEM #",
+                        "Words": [
+                            {
+                                "WordText": "ITEM",
+                                "Left": 85.0,
+                                "Top": 482.0,
+                                "Height": 10.0,
+                                "Width": 30.0
+                            },
+                            {
+                                "WordText": "#",
+                                "Left": 120.0,
+                                "Top": 482.0,
+                                "Height": 10.0,
+                                "Width": 7.0
+                            }
+                        ],
+                        "MaxHeight": 10.0,
+                        "MinTop": 482.0
+                    },
+                    {
+                        "LineText": "[23423423]",
+                        "Words": [
+                            {
+                                "WordText": "[23423423]",
+                                "Left": 49.0,
+                                "Top": 505.0,
+                                "Height": 13.0,
+                                "Width": 65.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 505.0
+                    },
+                    {
+                        "LineText": "[45645645]",
+                        "Words": [
+                            {
+                                "WordText": "[45645645]",
+                                "Left": 48.0,
+                                "Top": 526.0,
+                                "Height": 13.0,
+                                "Width": 66.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 526.0
+                    },
+                    {
+                        "LineText": "SHIP VIA",
+                        "Words": [
+                            {
+                                "WordText": "SHIP",
+                                "Left": 225.0,
+                                "Top": 411.0,
+                                "Height": 10.0,
+                                "Width": 30.0
+                            },
+                            {
+                                "WordText": "VIA",
+                                "Left": 258.0,
+                                "Top": 411.0,
+                                "Height": 10.0,
+                                "Width": 22.0
+                            }
+                        ],
+                        "MaxHeight": 10.0,
+                        "MinTop": 411.0
+                    },
+                    {
+                        "LineText": "DESCRIPTION",
+                        "Words": [
+                            {
+                                "WordText": "DESCRIPTION",
+                                "Left": 259.0,
+                                "Top": 482.0,
+                                "Height": 10.0,
+                                "Width": 89.0
+                            }
+                        ],
+                        "MaxHeight": 10.0,
+                        "MinTop": 482.0
+                    },
+                    {
+                        "LineText": "Product XYZ",
+                        "Words": [
+                            {
+                                "WordText": "Product",
+                                "Left": 180.0,
+                                "Top": 505.0,
+                                "Height": 10.0,
+                                "Width": 45.0
+                            },
+                            {
+                                "WordText": "XYZ",
+                                "Left": 229.0,
+                                "Top": 505.0,
+                                "Height": 10.0,
+                                "Width": 25.0
+                            }
+                        ],
+                        "MaxHeight": 10.0,
+                        "MinTop": 505.0
+                    },
+                    {
+                        "LineText": "Product ABC",
+                        "Words": [
+                            {
+                                "WordText": "Product",
+                                "Left": 180.0,
+                                "Top": 526.0,
+                                "Height": 10.0,
+                                "Width": 45.0
+                            },
+                            {
+                                "WordText": "ABC",
+                                "Left": 227.0,
+                                "Top": 526.0,
+                                "Height": 10.0,
+                                "Width": 28.0
+                            }
+                        ],
+                        "MaxHeight": 10.0,
+                        "MinTop": 526.0
+                    },
+                    {
+                        "LineText": "F.O.B.",
+                        "Words": [
+                            {
+                                "WordText": "F.O.B.",
+                                "Left": 367.0,
+                                "Top": 411.0,
+                                "Height": 10.0,
+                                "Width": 36.0
+                            }
+                        ],
+                        "MaxHeight": 10.0,
+                        "MinTop": 411.0
+                    },
+                    {
+                        "LineText": "[Phone]",
+                        "Words": [
+                            {
+                                "WordText": "[Phone]",
+                                "Left": 444.0,
+                                "Top": 348.0,
+                                "Height": 13.0,
+                                "Width": 45.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 348.0
+                    },
+                    {
+                        "LineText": "QTY",
+                        "Words": [
+                            {
+                                "WordText": "QTY",
+                                "Left": 471.0,
+                                "Top": 482.0,
+                                "Height": 11.0,
+                                "Width": 26.0
+                            }
+                        ],
+                        "MaxHeight": 11.0,
+                        "MinTop": 482.0
+                    },
+                    {
+                        "LineText": "15",
+                        "Words": [
+                            {
+                                "WordText": "15",
+                                "Left": 478.0,
+                                "Top": 505.0,
+                                "Height": 10.0,
+                                "Width": 13.0
+                            }
+                        ],
+                        "MaxHeight": 10.0,
+                        "MinTop": 505.0
+                    },
+                    {
+                        "LineText": "SHIPPING TERMS",
+                        "Words": [
+                            {
+                                "WordText": "SHIPPING",
+                                "Left": 537.0,
+                                "Top": 411.0,
+                                "Height": 10.0,
+                                "Width": 62.0
+                            },
+                            {
+                                "WordText": "TERMS",
+                                "Left": 603.0,
+                                "Top": 411.0,
+                                "Height": 10.0,
+                                "Width": 46.0
+                            }
+                        ],
+                        "MaxHeight": 10.0,
+                        "MinTop": 411.0
+                    },
+                    {
+                        "LineText": "9/29/2015",
+                        "Words": [
+                            {
+                                "WordText": "9/29/2015",
+                                "Left": 663.0,
+                                "Top": 121.0,
+                                "Height": 10.0,
+                                "Width": 58.0
+                            }
+                        ],
+                        "MaxHeight": 10.0,
+                        "MinTop": 121.0
+                    },
+                    {
+                        "LineText": "[123456]",
+                        "Words": [
+                            {
+                                "WordText": "[123456]",
+                                "Left": 667.0,
+                                "Top": 142.0,
+                                "Height": 13.0,
+                                "Width": 50.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 142.0
+                    },
+                    {
+                        "LineText": "TOTAL",
+                        "Words": [
+                            {
+                                "WordText": "TOTAL",
+                                "Left": 670.0,
+                                "Top": 482.0,
+                                "Height": 10.0,
+                                "Width": 43.0
+                            }
+                        ],
+                        "MaxHeight": 10.0,
+                        "MinTop": 482.0
+                    },
+                    {
+                        "LineText": "omments or Special Instructions",
+                        "Words": [
+                            {
+                                "WordText": "omments",
+                                "Left": 58.0,
+                                "Top": 848.0,
+                                "Height": 9.0,
+                                "Width": 58.0
+                            },
+                            {
+                                "WordText": "or",
+                                "Left": 121.0,
+                                "Top": 850.0,
+                                "Height": 7.0,
+                                "Width": 13.0
+                            },
+                            {
+                                "WordText": "Special",
+                                "Left": 139.0,
+                                "Top": 847.0,
+                                "Height": 13.0,
+                                "Width": 45.0
+                            },
+                            {
+                                "WordText": "Instructions",
+                                "Left": 189.0,
+                                "Top": 847.0,
+                                "Height": 10.0,
+                                "Width": 75.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 847.0
+                    },
+                    {
+                        "LineText": "Thank you for your business.",
+                        "Words": [
+                            {
+                                "WordText": "Thank",
+                                "Left": 48.0,
+                                "Top": 868.0,
+                                "Height": 10.0,
+                                "Width": 37.0
+                            },
+                            {
+                                "WordText": "you",
+                                "Left": 89.0,
+                                "Top": 871.0,
+                                "Height": 10.0,
+                                "Width": 20.0
+                            },
+                            {
+                                "WordText": "for",
+                                "Left": 114.0,
+                                "Top": 868.0,
+                                "Height": 10.0,
+                                "Width": 16.0
+                            },
+                            {
+                                "WordText": "your",
+                                "Left": 133.0,
+                                "Top": 871.0,
+                                "Height": 10.0,
+                                "Width": 26.0
+                            },
+                            {
+                                "WordText": "business.",
+                                "Left": 164.0,
+                                "Top": 868.0,
+                                "Height": 10.0,
+                                "Width": 54.0
+                            }
+                        ],
+                        "MaxHeight": 10.0,
+                        "MinTop": 868.0
+                    },
+                    {
+                        "LineText": "UNIT PRICE",
+                        "Words": [
+                            {
+                                "WordText": "UNIT",
+                                "Left": 546.0,
+                                "Top": 482.0,
+                                "Height": 10.0,
+                                "Width": 30.0
+                            },
+                            {
+                                "WordText": "PRICE",
+                                "Left": 581.0,
+                                "Top": 482.0,
+                                "Height": 10.0,
+                                "Width": 39.0
+                            }
+                        ],
+                        "MaxHeight": 10.0,
+                        "MinTop": 482.0
+                    },
+                    {
+                        "LineText": "150.00",
+                        "Words": [
+                            {
+                                "WordText": "150.00",
+                                "Left": 586.0,
+                                "Top": 505.0,
+                                "Height": 10.0,
+                                "Width": 39.0
+                            }
+                        ],
+                        "MaxHeight": 10.0,
+                        "MinTop": 505.0
+                    },
+                    {
+                        "LineText": "75.00",
+                        "Words": [
+                            {
+                                "WordText": "75.00",
+                                "Left": 593.0,
+                                "Top": 526.0,
+                                "Height": 10.0,
+                                "Width": 32.0
+                            }
+                        ],
+                        "MaxHeight": 10.0,
+                        "MinTop": 526.0
+                    },
+                    {
+                        "LineText": "SUBTOTAL",
+                        "Words": [
+                            {
+                                "WordText": "SUBTOTAL",
+                                "Left": 540.0,
+                                "Top": 822.0,
+                                "Height": 10.0,
+                                "Width": 69.0
+                            }
+                        ],
+                        "MaxHeight": 10.0,
+                        "MinTop": 822.0
+                    },
+                    {
+                        "LineText": "TAX",
+                        "Words": [
+                            {
+                                "WordText": "TAX",
+                                "Left": 540.0,
+                                "Top": 847.0,
+                                "Height": 10.0,
+                                "Width": 25.0
+                            }
+                        ],
+                        "MaxHeight": 10.0,
+                        "MinTop": 847.0
+                    },
+                    {
+                        "LineText": "SHIPPING",
+                        "Words": [
+                            {
+                                "WordText": "SHIPPING",
+                                "Left": 540.0,
+                                "Top": 872.0,
+                                "Height": 10.0,
+                                "Width": 63.0
+                            }
+                        ],
+                        "MaxHeight": 10.0,
+                        "MinTop": 872.0
+                    },
+                    {
+                        "LineText": "OTHER",
+                        "Words": [
+                            {
+                                "WordText": "OTHER",
+                                "Left": 541.0,
+                                "Top": 897.0,
+                                "Height": 10.0,
+                                "Width": 45.0
+                            }
+                        ],
+                        "MaxHeight": 10.0,
+                        "MinTop": 897.0
+                    },
+                    {
+                        "LineText": "TOTAL",
+                        "Words": [
+                            {
+                                "WordText": "TOTAL",
+                                "Left": 540.0,
+                                "Top": 922.0,
+                                "Height": 10.0,
+                                "Width": 43.0
+                            }
+                        ],
+                        "MaxHeight": 10.0,
+                        "MinTop": 922.0
+                    },
+                    {
+                        "LineText": "If you have any questions about this purchase order, please contact",
+                        "Words": [
+                            {
+                                "WordText": "If",
+                                "Left": 197.0,
+                                "Top": 964.0,
+                                "Height": 10.0,
+                                "Width": 7.0
+                            },
+                            {
+                                "WordText": "you",
+                                "Left": 207.0,
+                                "Top": 967.0,
+                                "Height": 10.0,
+                                "Width": 21.0
+                            },
+                            {
+                                "WordText": "have",
+                                "Left": 233.0,
+                                "Top": 964.0,
+                                "Height": 10.0,
+                                "Width": 27.0
+                            },
+                            {
+                                "WordText": "any",
+                                "Left": 265.0,
+                                "Top": 967.0,
+                                "Height": 10.0,
+                                "Width": 21.0
+                            },
+                            {
+                                "WordText": "questions",
+                                "Left": 290.0,
+                                "Top": 964.0,
+                                "Height": 13.0,
+                                "Width": 56.0
+                            },
+                            {
+                                "WordText": "about",
+                                "Left": 351.0,
+                                "Top": 964.0,
+                                "Height": 10.0,
+                                "Width": 33.0
+                            },
+                            {
+                                "WordText": "this",
+                                "Left": 387.0,
+                                "Top": 964.0,
+                                "Height": 10.0,
+                                "Width": 21.0
+                            },
+                            {
+                                "WordText": "purchase",
+                                "Left": 413.0,
+                                "Top": 964.0,
+                                "Height": 13.0,
+                                "Width": 53.0
+                            },
+                            {
+                                "WordText": "order,",
+                                "Left": 471.0,
+                                "Top": 964.0,
+                                "Height": 12.0,
+                                "Width": 33.0
+                            },
+                            {
+                                "WordText": "please",
+                                "Left": 509.0,
+                                "Top": 964.0,
+                                "Height": 13.0,
+                                "Width": 38.0
+                            },
+                            {
+                                "WordText": "contact",
+                                "Left": 552.0,
+                                "Top": 965.0,
+                                "Height": 9.0,
+                                "Width": 42.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 964.0
+                    },
+                    {
+                        "LineText": "https ITe I",
+                        "Words": [
+                            {
+                                "WordText": "https",
+                                "Left": 48.0,
+                                "Top": 998.0,
+                                "Height": 9.0,
+                                "Width": 22.0
+                            },
+                            {
+                                "WordText": "ITe",
+                                "Left": 189.0,
+                                "Top": 998.0,
+                                "Height": 7.0,
+                                "Width": 11.0
+                            },
+                            {
+                                "WordText": "I",
+                                "Left": 350.0,
+                                "Top": 998.0,
+                                "Height": 7.0,
+                                "Width": 1.0
+                            }
+                        ],
+                        "MaxHeight": 9.0,
+                        "MinTop": 998.0
+                    },
+                    {
+                        "LineText": "2,250.00",
+                        "Words": [
+                            {
+                                "WordText": "2,250.00",
+                                "Left": 690.0,
+                                "Top": 505.0,
+                                "Height": 12.0,
+                                "Width": 51.0
+                            }
+                        ],
+                        "MaxHeight": 12.0,
+                        "MinTop": 505.0
+                    },
+                    {
+                        "LineText": "75.00",
+                        "Words": [
+                            {
+                                "WordText": "75.00",
+                                "Left": 709.0,
+                                "Top": 526.0,
+                                "Height": 10.0,
+                                "Width": 32.0
+                            }
+                        ],
+                        "MaxHeight": 10.0,
+                        "MinTop": 526.0
+                    },
+                    {
+                        "LineText": "2,325.00",
+                        "Words": [
+                            {
+                                "WordText": "2,325.00",
+                                "Left": 690.0,
+                                "Top": 822.0,
+                                "Height": 12.0,
+                                "Width": 51.0
+                            }
+                        ],
+                        "MaxHeight": 12.0,
+                        "MinTop": 822.0
+                    },
+                    {
+                        "LineText": "plate @ 201S",
+                        "Words": [
+                            {
+                                "WordText": "plate",
+                                "Left": 635.0,
+                                "Top": 998.0,
+                                "Height": 9.0,
+                                "Width": 21.0
+                            },
+                            {
+                                "WordText": "@",
+                                "Left": 659.0,
+                                "Top": 997.0,
+                                "Height": 8.0,
+                                "Width": 8.0
+                            },
+                            {
+                                "WordText": "201S",
+                                "Left": 670.0,
+                                "Top": 998.0,
+                                "Height": 7.0,
+                                "Width": 21.0
+                            }
+                        ],
+                        "MaxHeight": 9.0,
+                        "MinTop": 997.0
+                    }
+                ],
+                "HasOverlay": true,
+                "Message": "Total lines: 52"
+            },
+            "TextOrientation": "0",
+            "FileParseExitCode": 1,
+            "ParsedText": "[Company Name]\r\n[Street Address]\r\n[City, ST ZIP]\r\nPhone: (000) 000-0000\r\nFax: (000) 000-0000\r\nWebsite:\r\nVENDOR\r\n[Company Name]\r\n[Contact or Department]\r\n[Street Address]\r\n[City, ST ZIP]\r\nPhone: (000) 000-0000\r\nFax: (000) 000-0000\r\nPURCHASE ORDER\r\nDATE\r\nSHIP TO\r\n[Name]\r\n[Company Name]\r\n[Street Address]\r\n[City, ST ZIP]\r\nREQUISITIONER\r\nITEM #\r\n[23423423]\r\n[45645645]\r\nSHIP VIA\r\nDESCRIPTION\r\nProduct XYZ\r\nProduct ABC\r\nF.O.B.\r\n[Phone]\r\nQTY\r\n15\r\nSHIPPING TERMS\r\n9/29/2015\r\n[123456]\r\nTOTAL\r\nomments or Special Instructions\r\nThank you for your business.\r\nUNIT PRICE\r\n150.00\r\n75.00\r\nSUBTOTAL\r\nTAX\r\nSHIPPING\r\nOTHER\r\nTOTAL\r\nIf you have any questions about this purchase order, please contact\r\nhttps ITe I\r\n2,250.00\r\n75.00\r\n2,325.00\r\nplate @ 201S\r\n",
+            "ErrorMessage": "",
+            "ErrorDetails": ""
+        },
+        {
+            "TextOverlay": {
+                "Lines": [
+                    {
+                        "LineText": "[Name, Phone E-mail]",
+                        "Words": [
+                            {
+                                "WordText": "[Name,",
+                                "Left": 323.0,
+                                "Top": 53.0,
+                                "Height": 13.0,
+                                "Width": 41.0
+                            },
+                            {
+                                "WordText": "Phone",
+                                "Left": 370.0,
+                                "Top": 53.0,
+                                "Height": 10.0,
+                                "Width": 37.0
+                            },
+                            {
+                                "WordText": "E-mail]",
+                                "Left": 427.0,
+                                "Top": 53.0,
+                                "Height": 13.0,
+                                "Width": 40.0
+                            }
+                        ],
+                        "MaxHeight": 13.0,
+                        "MinTop": 53.0
+                    },
+                    {
+                        "LineText": "https ITe I",
+                        "Words": [
+                            {
+                                "WordText": "https",
+                                "Left": 48.0,
+                                "Top": 998.0,
+                                "Height": 9.0,
+                                "Width": 22.0
+                            },
+                            {
+                                "WordText": "ITe",
+                                "Left": 189.0,
+                                "Top": 998.0,
+                                "Height": 7.0,
+                                "Width": 11.0
+                            },
+                            {
+                                "WordText": "I",
+                                "Left": 350.0,
+                                "Top": 998.0,
+                                "Height": 7.0,
+                                "Width": 1.0
+                            }
+                        ],
+                        "MaxHeight": 9.0,
+                        "MinTop": 998.0
+                    },
+                    {
+                        "LineText": "@ 201S",
+                        "Words": [
+                            {
+                                "WordText": "@",
+                                "Left": 659.0,
+                                "Top": 997.0,
+                                "Height": 8.0,
+                                "Width": 8.0
+                            },
+                            {
+                                "WordText": "201S",
+                                "Left": 670.0,
+                                "Top": 998.0,
+                                "Height": 7.0,
+                                "Width": 21.0
+                            }
+                        ],
+                        "MaxHeight": 8.0,
+                        "MinTop": 997.0
+                    }
+                ],
+                "HasOverlay": true,
+                "Message": "Total lines: 3"
+            },
+            "TextOrientation": "0",
+            "FileParseExitCode": 1,
+            "ParsedText": "[Name, Phone E-mail]\r\nhttps ITe I\r\n@ 201S\r\n",
+            "ErrorMessage": "",
+            "ErrorDetails": ""
+        }
+    ],
+    "OCRExitCode": 1,
+    "IsErroredOnProcessing": false,
+    "ProcessingTimeInMilliseconds": "640",
+    "SearchablePDFURL": "Searchable PDF not generated as it was not requested."
+}

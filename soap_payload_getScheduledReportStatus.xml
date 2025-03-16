@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://xmlns.oracle.com/oxp/service/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:getScheduledReportStatus>
+         <v2:scheduledJobID>503409</v2:scheduledJobID>
+			<v2:userID>fin_impl</v2:userID>
+			<v2:password>wm#qK8*9</v2:password>
+      </v2:getScheduledReportStatus>
+   </soapenv:Body>
+</soapenv:Envelope>

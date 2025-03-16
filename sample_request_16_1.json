@@ -1,0 +1,34 @@
+{
+	"parts": [
+		{
+			"id": "TEST-1533qq633",
+			"path": "/PoLines",
+			"operation": "create",
+			"payload": {
+				"itemDescription": "TEST-1533qq4",
+				"poHeaderId": "1",
+				"poLineId": "1"
+			}
+		},
+		{
+			"id": "TEST-1533qq65",
+			"path": "/PoLines",
+			"operation": "create",
+			"payload": {
+				"itemDescription": "TEST-1533qq5",
+				"poHeaderId": "1",
+				"poLineId": "1"
+			}
+		},
+		{
+			"id": "TEST-1533qq6",
+			"path": "/PoLines",
+			"operation": "create",
+			"payload": {
+				"itemDescription": "TEST-1533qq6",
+				"poHeaderId": "1",
+				"poLineId": "1"
+			}
+		}
+	]
+}

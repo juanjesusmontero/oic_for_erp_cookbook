@@ -1,0 +1,685 @@
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsa="http://www.w3.org/2005/08/addressing">
+	<env:Header>
+		<wsa:To>https://oic3-partners-bots4saas-yu.integration.ca-montreal-1.ocp.oraclecloud.com/ic/ws/integration/v1/flows/erp/XX_DEMO_PO_EVENT/1.0/</wsa:To>
+		<wsa:Action>http://xmlns.oracle.com/fa/event/onEvent</wsa:Action>
+		<wsa:MessageID>urn:fcd8ee8f-fb2d-11ef-a319-4b8c765275a4</wsa:MessageID>
+		<wsa:RelatesTo>urn:fcd8ee8f-fb2d-11ef-a319-4b8c765275a4</wsa:RelatesTo>
+		<wsa:ReplyTo>
+			<wsa:Address>http://www.w3.org/2005/08/addressing/anonymous</wsa:Address>
+			<wsa:ReferenceParameters>
+				<instra:tracking.ecid xmlns:instra="http://xmlns.oracle.com/sca/tracking/1.0">006Bvl4NmLL8hoVay1EgMG00CZet0002Yp</instra:tracking.ecid>
+				<instra:tracking.conversationId xmlns:instra="http://xmlns.oracle.com/sca/tracking/1.0">urn:fcd8ee8f-fb2d-11ef-a319-4b8c765275a4</instra:tracking.conversationId>
+				<instra:tracking.parentComponentInstanceId xmlns:instra="http://xmlns.oracle.com/sca/tracking/1.0">bpel:10361829</instra:tracking.parentComponentInstanceId>
+				<instra:tracking.parentReferenceId xmlns:instra="http://xmlns.oracle.com/sca/tracking/1.0">10361829-BpInv2-BpIf2.7-2</instra:tracking.parentReferenceId>
+				<instra:tracking.FlowEventId xmlns:instra="http://xmlns.oracle.com/sca/tracking/1.0">11557339</instra:tracking.FlowEventId>
+				<instra:tracking.FlowId xmlns:instra="http://xmlns.oracle.com/sca/tracking/1.0">3248367</instra:tracking.FlowId>
+				<instra:tracking.CorrelationFlowId xmlns:instra="http://xmlns.oracle.com/sca/tracking/1.0">0000PLjhnVP8hoVay1nZ6G1bm2Z70003Pq</instra:tracking.CorrelationFlowId>
+				<instra:tracking.quiescing.SCAEntityId xmlns:instra="http://xmlns.oracle.com/sca/tracking/1.0">781312</instra:tracking.quiescing.SCAEntityId>
+			</wsa:ReferenceParameters>
+		</wsa:ReplyTo>
+		<wsa:FaultTo>
+			<wsa:Address>http://www.w3.org/2005/08/addressing/anonymous</wsa:Address>
+			<wsa:ReferenceParameters>
+				<instra:tracking.ecid xmlns:instra="http://xmlns.oracle.com/sca/tracking/1.0">006Bvl4NmLL8hoVay1EgMG00CZet0002Yp</instra:tracking.ecid>
+				<instra:tracking.conversationId xmlns:instra="http://xmlns.oracle.com/sca/tracking/1.0">urn:fcd8ee8f-fb2d-11ef-a319-4b8c765275a4</instra:tracking.conversationId>
+				<instra:tracking.parentComponentInstanceId xmlns:instra="http://xmlns.oracle.com/sca/tracking/1.0">bpel:10361829</instra:tracking.parentComponentInstanceId>
+				<instra:tracking.parentReferenceId xmlns:instra="http://xmlns.oracle.com/sca/tracking/1.0">10361829-BpInv2-BpIf2.7-2</instra:tracking.parentReferenceId>
+				<instra:tracking.FlowEventId xmlns:instra="http://xmlns.oracle.com/sca/tracking/1.0">11557339</instra:tracking.FlowEventId>
+				<instra:tracking.FlowId xmlns:instra="http://xmlns.oracle.com/sca/tracking/1.0">3248367</instra:tracking.FlowId>
+				<instra:tracking.CorrelationFlowId xmlns:instra="http://xmlns.oracle.com/sca/tracking/1.0">0000PLjhnVP8hoVay1nZ6G1bm2Z70003Pq</instra:tracking.CorrelationFlowId>
+				<instra:tracking.quiescing.SCAEntityId xmlns:instra="http://xmlns.oracle.com/sca/tracking/1.0">781312</instra:tracking.quiescing.SCAEntityId>
+			</wsa:ReferenceParameters>
+		</wsa:FaultTo>
+		<fmw-context xmlns="http://xmlns.oracle.com/fmw/context/1.0">
+			<parameter>
+				<name>hcm_computeACL_LRUEnabled</name>
+				<namespace>FND$SESSION</namespace>
+				<value>Y</value>
+			</parameter>
+			<parameter>
+				<name>ATK_POPUP_NOTIFICATION_TOTAL_MESSAGE_COUNT</name>
+				<namespace>FND$SESSION</namespace>
+				<value>0</value>
+			</parameter>
+			<parameter>
+				<name>FND_TENANT_SNAME</name>
+				<namespace>FND$SESSION</namespace>
+				<value>ORA_ERROR</value>
+			</parameter>
+			<parameter>
+				<name>ACCESSIBILITY_MODE</name>
+				<namespace>FND$SECURITY</namespace>
+				<value>DEFAULT</value>
+			</parameter>
+			<parameter>
+				<name>TERRITORY</name>
+				<namespace>FND$SECURITY</namespace>
+				<value>US</value>
+			</parameter>
+			<parameter>
+				<name>fuseStartPageViewId</name>
+				<namespace>FND$SESSION</namespace>
+				<value>FuseWelcome</value>
+			</parameter>
+			<parameter>
+				<name>FND_IS_EXTERNAL_USER</name>
+				<namespace>FND$SESSION</namespace>
+				<value>N</value>
+			</parameter>
+			<parameter>
+				<name>ATK_GRID_VIEW</name>
+				<namespace>FND$SESSION</namespace>
+				<value>CLUSTER</value>
+			</parameter>
+			<parameter>
+				<name>ATK_POPUP_NOTIFICATION_UNREAD_MESSAGE_COUNT</name>
+				<namespace>FND$SESSION</namespace>
+				<value>0</value>
+			</parameter>
+			<parameter>
+				<name>TIME_FORMAT</name>
+				<namespace>FND$SECURITY</namespace>
+				<value>h:mm a</value>
+			</parameter>
+			<parameter>
+				<name>fuseStartPageWebApp</name>
+				<namespace>FND$SESSION</namespace>
+				<value>ORA_FSCM_UI</value>
+			</parameter>
+			<parameter>
+				<name>DISPLAY_NAME_LANGUAGE</name>
+				<namespace>FND$SECURITY</namespace>
+				<value>en</value>
+			</parameter>
+			<parameter>
+				<name>ATK_POPUP_NOTIFICATION_LATEST_MESG_CREATION_DATE</name>
+				<namespace>FND$SESSION</namespace>
+				<value>1741335487004</value>
+			</parameter>
+			<parameter>
+				<name>GROUPING_SEPARATOR</name>
+				<namespace>FND$SECURITY</namespace>
+				<value>,</value>
+			</parameter>
+			<parameter>
+				<name>DECIMAL_SEPARATOR</name>
+				<namespace>FND$SECURITY</namespace>
+				<value>.</value>
+			</parameter>
+			<parameter>
+				<name>CLIENT_ENCODING</name>
+				<namespace>FND$SECURITY</namespace>
+				<value>UTF-8</value>
+			</parameter>
+			<parameter>
+				<name>METADATA_REVISION_ID</name>
+				<namespace>FND$SESSION</namespace>
+				<value>ddf89416-6d04-47b8-8d7c-4dac52b8e74b</value>
+			</parameter>
+			<parameter>
+				<name>defaultHomePageCount</name>
+				<namespace>FND$SESSION</namespace>
+				<value>1</value>
+			</parameter>
+			<parameter>
+				<name>UnifiedSandboxEnabled</name>
+				<namespace>FND$SESSION</namespace>
+				<value>Y</value>
+			</parameter>
+			<parameter>
+				<name>TIMEZONE</name>
+				<namespace>FND$SECURITY</namespace>
+				<value>UTC</value>
+			</parameter>
+			<parameter>
+				<name>LANGUAGE</name>
+				<namespace>FND$SECURITY</namespace>
+				<value>en</value>
+			</parameter>
+			<parameter>
+				<name>HCM_USER_PAYLDGID</name>
+				<namespace>FND$SESSION</namespace>
+				<value>300000046974970</value>
+			</parameter>
+			<parameter>
+				<name>ATK_UA_ENABLED_IN_SESSION</name>
+				<namespace>FND$SESSION</namespace>
+				<value>Y</value>
+			</parameter>
+			<parameter>
+				<name>FUSE_USER</name>
+				<namespace>FND$SESSION</namespace>
+				<value>Y</value>
+			</parameter>
+			<parameter>
+				<name>ATK_CURRENT_CONTEXT_ROOT</name>
+				<namespace>FND$SESSION</namespace>
+				<value>/fscmUI</value>
+			</parameter>
+			<parameter>
+				<name>hcm_computeACL_isUserLRU</name>
+				<namespace>FND$SESSION</namespace>
+				<value>N</value>
+			</parameter>
+			<parameter>
+				<name>NLS_LANGUAGE</name>
+				<namespace>FND$SECURITY</namespace>
+				<value>AMERICAN</value>
+			</parameter>
+			<parameter>
+				<name>NLS_SORT</name>
+				<namespace>FND$SECURITY</namespace>
+				<value>BINARY</value>
+			</parameter>
+			<parameter>
+				<name>HCM_USER_PAYRELID</name>
+				<namespace>FND$SESSION</namespace>
+				<value>300000047625126</value>
+			</parameter>
+			<parameter>
+				<name>USER_NAME_UNPREFIXED</name>
+				<namespace>FND$SECURITY</namespace>
+				<value>FUSION_APPS_PRC_SOA_APPID</value>
+			</parameter>
+			<parameter>
+				<name>FND_ENTERPRISE_ID</name>
+				<namespace>FND$SESSION</namespace>
+				<value>1</value>
+			</parameter>
+			<parameter>
+				<name>NUMBER_FORMAT</name>
+				<namespace>FND$SECURITY</namespace>
+				<value>#,##0.###</value>
+			</parameter>
+			<parameter>
+				<name>SESSION_MODE</name>
+				<namespace>FND$SESSION</namespace>
+				<value>WEB</value>
+			</parameter>
+			<parameter>
+				<name>DATE_FORMAT</name>
+				<namespace>FND$SECURITY</namespace>
+				<value>M/d/yy</value>
+			</parameter>
+			<parameter>
+				<name>HCM_USER_PAYPSUID</name>
+				<namespace>FND$SESSION</namespace>
+				<value>300000046974965</value>
+			</parameter>
+			<parameter>
+				<name>FND_USER_IP_ADDR</name>
+				<namespace>FND$SECURITY</namespace>
+				<value>37.132.144.77</value>
+			</parameter>
+			<parameter>
+				<name>HCM_USER_PAYRELNUM</name>
+				<namespace>FND$SESSION</namespace>
+				<value>9</value>
+			</parameter>
+			<parameter>
+				<name>ATK_POPUP_NOTIFICATION_INITIALIZATION_DONE</name>
+				<namespace>FND$SESSION</namespace>
+				<value>Y</value>
+			</parameter>
+			<parameter>
+				<name>ATK_TTF_MYSUBMISSION_INITIALIZATION_DONE</name>
+				<namespace>FND$SESSION</namespace>
+				<value>N</value>
+			</parameter>
+			<parameter>
+				<name>ASM_SETUP_CUST</name>
+				<namespace>FND$SESSION</namespace>
+				<value>FS</value>
+			</parameter>
+			<parameter>
+				<name>USER_DISPLAY_NAME</name>
+				<namespace>FND$SECURITY</namespace>
+				<value>John Dunbar</value>
+			</parameter>
+			<parameter>
+				<name>HISTORY_OVERRIDE_USER_NAME</name>
+				<namespace>FND$SECURITY</namespace>
+				<value>JOHN.DUNBAR</value>
+			</parameter>
+			<parameter>
+				<name>ASM_INTERNAL_ENV</name>
+				<namespace>FND$SESSION</namespace>
+				<value>N</value>
+			</parameter>
+			<parameter>
+				<name>CURRENCY</name>
+				<namespace>FND$SECURITY</namespace>
+				<value>USD</value>
+			</parameter>
+			<parameter>
+				<name>FONT_SIZE</name>
+				<namespace>FND$SECURITY</namespace>
+				<value>MEDIUM</value>
+			</parameter>
+			<parameter>
+				<name>HRC_CDRM_MT_PROFILE_OPTION</name>
+				<namespace>FND$SESSION</namespace>
+				<value>N</value>
+			</parameter>
+			<parameter>
+				<name>userDisplayName</name>
+				<namespace>FND$SESSION</namespace>
+				<value>John Dunbar</value>
+			</parameter>
+			<parameter>
+				<name>fndPretchCookiesAdded</name>
+				<namespace>FND$SESSION</namespace>
+				<value>Y</value>
+			</parameter>
+			<parameter>
+				<name>ATK_TTF_MYASSIGNMENTS_INITIALIZATION_DONE</name>
+				<namespace>FND$SESSION</namespace>
+				<value>N</value>
+			</parameter>
+			<parameter>
+				<name>USER_NAME</name>
+				<namespace>FND$SECURITY</namespace>
+				<value>FUSION_APPS_PRC_SOA_APPID</value>
+			</parameter>
+			<parameter>
+				<name>NLS_LANG</name>
+				<namespace>FND$SECURITY</namespace>
+				<value>US</value>
+			</parameter>
+			<parameter>
+				<name>lastVisitedClusterId</name>
+				<namespace>FND$SESSION</namespace>
+				<value>groupNode_procurement</value>
+			</parameter>
+			<parameter>
+				<name>COLOR_CONTRAST</name>
+				<namespace>FND$SECURITY</namespace>
+				<value>STANDARD</value>
+			</parameter>
+			<parameter>
+				<name>USER_GUID</name>
+				<namespace>FND$SECURITY</namespace>
+				<value>E01F6A000E4911D2E0533768F80A4335</value>
+			</parameter>
+			<parameter>
+				<name>APP_STRIPES</name>
+				<namespace>FND$SECURITY</namespace>
+				<value>'fscm'</value>
+			</parameter>
+			<parameter>
+				<name>ACTION</name>
+				<namespace>FND$SECURITY</namespace>
+				<value>FuseWelcome</value>
+			</parameter>
+			<parameter>
+				<name>HCM_USER_ACTV_ASG</name>
+				<namespace>FND$SESSION</namespace>
+				<value>Y</value>
+			</parameter>
+			<parameter>
+				<name>defaultHomePage1</name>
+				<namespace>FND$SESSION</namespace>
+				<value>newsFeed</value>
+			</parameter>
+			<parameter>
+				<name>SESSION_ID</name>
+				<namespace/>
+				<value>2F96F561DBC26B17E063F464F00A934E</value>
+			</parameter>
+			<parameter>
+				<name>firstTimeTTF</name>
+				<namespace>FND$SESSION</namespace>
+				<value>N</value>
+			</parameter>
+		</fmw-context>
+	</env:Header>
+	<env:Body>
+		<ns0:getPurchaseOrderResponse xmlns="" xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns0="http://xmlns.oracle.com/apps/prc/po/editDocument/purchaseOrderServiceV2/types/" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+			<ns2:result xmlns:ns0="http://xmlns.oracle.com/apps/prc/po/editDocument/purchaseOrderServiceV2/" xmlns:ns1="http://xmlns.oracle.com/adf/svc/types/" xmlns:ns2="http://xmlns.oracle.com/apps/prc/po/editDocument/purchaseOrderServiceV2/types/" xmlns:ns6="http://xmlns.oracle.com/apps/prc/po/viewDocument/publicFlex/purchasingDocumentHeader/" xmlns:tns="http://xmlns.oracle.com/adf/svc/errors/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns0:PurchaseOrderResult">
+				<ns0:Value>
+					<ns0:POHeaderId>604869</ns0:POHeaderId>
+					<ns0:OrderNumber>US165075</ns0:OrderNumber>
+					<ns0:OrderRevision>0</ns0:OrderRevision>
+					<ns0:DocumentTypeCode>STANDARD</ns0:DocumentTypeCode>
+					<ns0:DocumentType>Purchase Order</ns0:DocumentType>
+					<ns0:DocumentStyleId>1</ns0:DocumentStyleId>
+					<ns0:DocumentStyle>Purchase Order</ns0:DocumentStyle>
+					<ns0:ProcurementBUId>300000046987012</ns0:ProcurementBUId>
+					<ns0:ProcurementBusinessUnit>US1 Business Unit</ns0:ProcurementBusinessUnit>
+					<ns0:RequisitioningBUId>300000046987012</ns0:RequisitioningBUId>
+					<ns0:RequisitioningBusinessUnit>US1 Business Unit</ns0:RequisitioningBusinessUnit>
+					<ns0:SoldToLegalEntityId>300000046973970</ns0:SoldToLegalEntityId>
+					<ns0:SoldToLegalEntity>US1 Legal Entity</ns0:SoldToLegalEntity>
+					<ns0:BillToBUId>300000046987012</ns0:BillToBUId>
+					<ns0:BillToBusinessUnit>US1 Business Unit</ns0:BillToBusinessUnit>
+					<ns0:DocumentStatusCode>OPEN</ns0:DocumentStatusCode>
+					<ns0:DocumentStatus>Open</ns0:DocumentStatus>
+					<ns0:BuyerId>300000047625111</ns0:BuyerId>
+					<ns0:BuyerName>Dunbar, John</ns0:BuyerName>
+					<ns0:BuyerEmail>JOHN.DUNBAR_dabpqy@oraclepdemos.com</ns0:BuyerEmail>
+					<ns0:CreationDate>2025-03-07T08:18:11Z</ns0:CreationDate>
+					<ns0:SupplierId>300000175345137</ns0:SupplierId>
+					<ns0:Supplier>ABC Bank</ns0:Supplier>
+					<ns0:SupplierSiteId>300000175345167</ns0:SupplierSiteId>
+					<ns0:SupplierSiteCode>ABC Bank US1</ns0:SupplierSiteCode>
+					<ns0:SupplierContactId>300000175345217</ns0:SupplierContactId>
+					<ns0:SupplierContactName>Ivy, Ralph</ns0:SupplierContactName>
+					<ns0:SupplierContactEmail>ralph.ivy_dabpqy@oraclepdemos.com</ns0:SupplierContactEmail>
+					<ns0:SupplierCommunicationMethod>NONE</ns0:SupplierCommunicationMethod>
+					<ns0:SupplierCommunicationEmail xsi:nil="true"/>
+					<ns0:SupplierCommunicationFax xsi:nil="true"/>
+					<ns0:BillToLocationId>300000047013200</ns0:BillToLocationId>
+					<ns0:BillToLocationCode>Seattle</ns0:BillToLocationCode>
+					<ns0:DefaultShipToLocationId>300000047013200</ns0:DefaultShipToLocationId>
+					<ns0:DefaultShipToLocationCode>Seattle</ns0:DefaultShipToLocationCode>
+					<ns0:CurrencyCode>USD</ns0:CurrencyCode>
+					<ns0:Currency>US Dollar</ns0:Currency>
+					<ns0:ConversionRateTypeCode xsi:nil="true"/>
+					<ns0:ConversionRateType xsi:nil="true"/>
+					<ns0:ConversionDate xsi:nil="true"/>
+					<ns0:ConversionRate xsi:nil="true"/>
+					<ns0:OrderedAmount currencyCode="USD">3</ns0:OrderedAmount>
+					<ns0:TotalTaxAmount currencyCode="USD">0.29</ns0:TotalTaxAmount>
+					<ns0:TotalAmount currencyCode="USD">3.29</ns0:TotalAmount>
+					<ns0:ProcurementCard xsi:nil="true"/>
+					<ns0:DocumentDescription xsi:nil="true"/>
+					<ns0:SupplierOrderNumber xsi:nil="true"/>
+					<ns0:RequiredAcknowledgmentCode>N</ns0:RequiredAcknowledgmentCode>
+					<ns0:RequiredAcknowledgment>None</ns0:RequiredAcknowledgment>
+					<ns0:AcknowledgmentDueDate xsi:nil="true"/>
+					<ns0:PaymentTermsId>10134</ns0:PaymentTermsId>
+					<ns0:PaymentTerms>Net 30</ns0:PaymentTerms>
+					<ns0:CarrierId>300000047303443</ns0:CarrierId>
+					<ns0:Carrier>UPS</ns0:Carrier>
+					<ns0:ServiceLevelCode xsi:nil="true"/>
+					<ns0:ServiceLevel/>
+					<ns0:ModeOfTransportCode xsi:nil="true"/>
+					<ns0:ModeOfTransport/>
+					<ns0:FreightTermsCode>BUYER</ns0:FreightTermsCode>
+					<ns0:FreightTerms>Buyer pays freight</ns0:FreightTerms>
+					<ns0:FOBCode>Origin</ns0:FOBCode>
+					<ns0:FOB>Origin</ns0:FOB>
+					<ns0:PayOnReceiptFlag>false</ns0:PayOnReceiptFlag>
+					<ns0:ConfirmingOrderFlag>false</ns0:ConfirmingOrderFlag>
+					<ns0:NoteToReceiver xsi:nil="true"/>
+					<ns0:NoteToSupplier xsi:nil="true"/>
+					<ns0:TaxationCountryCode>US</ns0:TaxationCountryCode>
+					<ns0:TaxationCountry>United States</ns0:TaxationCountry>
+					<ns0:DocumentFiscalClassificationCode xsi:nil="true"/>
+					<ns0:DocumentFiscalClassification xsi:nil="true"/>
+					<ns0:InterfaceSourceCode xsi:nil="true"/>
+					<ns0:ReferenceNumber xsi:nil="true"/>
+					<ns0:FundsStatusCode xsi:nil="true"/>
+					<ns0:FundsStatus/>
+					<ns0:OrchestrationOrderFlag>false</ns0:OrchestrationOrderFlag>
+					<ns0:OrderDate>2025-03-07</ns0:OrderDate>
+					<ns0:SubmitDate>2025-03-07</ns0:SubmitDate>
+					<ns0:SupplierNumber>1359</ns0:SupplierNumber>
+					<ns0:SupplierContactPhone xsi:nil="true"/>
+					<ns0:SupplierContactFax xsi:nil="true"/>
+					<ns0:BuyerManagedTransportFlag>false</ns0:BuyerManagedTransportFlag>
+					<ns0:PurchaseOrderLine xmlns:ns5="http://xmlns.oracle.com/apps/prc/po/viewDocument/publicFlex/purchasingDocumentLine/">
+						<ns0:POHeaderId>604869</ns0:POHeaderId>
+						<ns0:POLineId>1207179</ns0:POLineId>
+						<ns0:LineNumber>1</ns0:LineNumber>
+						<ns0:LineTypeId>1</ns0:LineTypeId>
+						<ns0:LineType>Goods</ns0:LineType>
+						<ns0:ItemId xsi:nil="true"/>
+						<ns0:ItemNumber xsi:nil="true"/>
+						<ns0:ItemRevision xsi:nil="true"/>
+						<ns0:ItemDescription>FDFDFDFD</ns0:ItemDescription>
+						<ns0:CategoryId>300000076308555</ns0:CategoryId>
+						<ns0:CategoryName>204.54 Laptops</ns0:CategoryName>
+						<ns0:LineStatusCode>OPEN</ns0:LineStatusCode>
+						<ns0:LineStatus>Open</ns0:LineStatus>
+						<ns0:SupplierItem xsi:nil="true"/>
+						<ns0:UnitOfMeasureCode>ECH</ns0:UnitOfMeasureCode>
+						<ns0:UnitOfMeasure>Each</ns0:UnitOfMeasure>
+						<ns0:Quantity unitCode="ECH">1</ns0:Quantity>
+						<ns0:Price currencyCode="USD">3</ns0:Price>
+						<ns0:TaxExclusivePrice xsi:nil="true"/>
+						<ns0:OrderedAmount currencyCode="USD">3</ns0:OrderedAmount>
+						<ns0:TotalTaxAmount currencyCode="USD">0.29</ns0:TotalTaxAmount>
+						<ns0:TotalAmount currencyCode="USD">3.29</ns0:TotalAmount>
+						<ns0:SupplierConfigurationId xsi:nil="true"/>
+						<ns0:NegotiatedFlag>false</ns0:NegotiatedFlag>
+						<ns0:UNNumberId xsi:nil="true"/>
+						<ns0:UNNumber/>
+						<ns0:UNNumberDescription/>
+						<ns0:HazardClassId xsi:nil="true"/>
+						<ns0:HazardClass/>
+						<ns0:HazardClassDescription xsi:nil="true"/>
+						<ns0:SourceAgreementId xsi:nil="true"/>
+						<ns0:SourceAgreementProcurementBUId xsi:nil="true"/>
+						<ns0:SourceAgreementProcurementBusinessUnit xsi:nil="true"/>
+						<ns0:SourceAgreementNumber xsi:nil="true"/>
+						<ns0:SourceAgreementLine xsi:nil="true"/>
+						<ns0:SourceAgreementType xsi:nil="true"/>
+						<ns0:SourceAgreementStyle xsi:nil="true"/>
+						<ns0:NoteToSupplier xsi:nil="true"/>
+						<ns0:FundsStatusCode xsi:nil="true"/>
+						<ns0:FundsStatus/>
+						<ns0:ConsignmentLineFlag>false</ns0:ConsignmentLineFlag>
+						<ns0:WorkOrderProduct xsi:nil="true"/>
+						<ns0:BaseModelId xsi:nil="true"/>
+						<ns0:BaseModelNumber xsi:nil="true"/>
+						<ns0:BaseModelPrice xsi:nil="true"/>
+						<ns0:SelectedOptionsPrice xsi:nil="true"/>
+						<ns0:PurchaseOrderSchedule xmlns:ns4="http://xmlns.oracle.com/apps/prc/po/viewDocument/publicFlex/purchasingDocumentSchedule/">
+							<ns0:POHeaderId>604869</ns0:POHeaderId>
+							<ns0:POLineId>1207179</ns0:POLineId>
+							<ns0:LineLocationId>711142</ns0:LineLocationId>
+							<ns0:ScheduleNumber>1</ns0:ScheduleNumber>
+							<ns0:ParentLineLocationId xsi:nil="true"/>
+							<ns0:ParentScheduleNumber/>
+							<ns0:ScheduleStatusCode>OPEN</ns0:ScheduleStatusCode>
+							<ns0:ScheduleStatus>Open</ns0:ScheduleStatus>
+							<ns0:SupplierOrderLine xsi:nil="true"/>
+							<ns0:Quantity unitCode="ECH">1</ns0:Quantity>
+							<ns0:SecondaryUOMCode xsi:nil="true"/>
+							<ns0:SecondaryUOM/>
+							<ns0:SecondaryQuantity xsi:nil="true"/>
+							<ns0:OrderedAmount currencyCode="USD">3</ns0:OrderedAmount>
+							<ns0:TotalTaxAmount currencyCode="USD">0.29</ns0:TotalTaxAmount>
+							<ns0:TotalAmount currencyCode="USD">3.29</ns0:TotalAmount>
+							<ns0:CountryOfOriginCode xsi:nil="true"/>
+							<ns0:CountryOfOrigin/>
+							<ns0:ShipToLocationId>300000047013200</ns0:ShipToLocationId>
+							<ns0:ShipToLocationCode>Seattle</ns0:ShipToLocationCode>
+							<ns0:ShipToOrganizationId>300000047274444</ns0:ShipToOrganizationId>
+							<ns0:ShipToOrganizationCode>001</ns0:ShipToOrganizationCode>
+							<ns0:ShipToOrganizationName>Seattle</ns0:ShipToOrganizationName>
+							<ns0:ShipToCustomerLocationId xsi:nil="true"/>
+							<ns0:ShipToCustomerLocation xsi:nil="true"/>
+							<ns0:ShipToCustomerId xsi:nil="true"/>
+							<ns0:ShipToCustomer/>
+							<ns0:ShipToCustomerContactId xsi:nil="true"/>
+							<ns0:ShipToCustomerContact/>
+							<ns0:BackToBackFlag xsi:nil="true"/>
+							<ns0:SalesOrderNumber xsi:nil="true"/>
+							<ns0:SalesOrderLineNumber xsi:nil="true"/>
+							<ns0:SalesOrderScheduleNumber xsi:nil="true"/>
+							<ns0:CustomerPONumber xsi:nil="true"/>
+							<ns0:CustomerPOLine xsi:nil="true"/>
+							<ns0:CustomerPOSchedule xsi:nil="true"/>
+							<ns0:CustomerItem xsi:nil="true"/>
+							<ns0:CustomerItemDescription xsi:nil="true"/>
+							<ns0:NeedByDate xsi:nil="true"/>
+							<ns0:PromisedDate xsi:nil="true"/>
+							<ns0:OriginalPromisedDate xsi:nil="true"/>
+							<ns0:DestinationTypeCode>EXPENSE</ns0:DestinationTypeCode>
+							<ns0:DestinationType>Expense</ns0:DestinationType>
+							<ns0:CarrierId>300000047303443</ns0:CarrierId>
+							<ns0:Carrier>UPS</ns0:Carrier>
+							<ns0:ServiceLevelCode xsi:nil="true"/>
+							<ns0:ServiceLevel/>
+							<ns0:ModeOfTransportCode xsi:nil="true"/>
+							<ns0:ModeOfTransport/>
+							<ns0:EarlyReceiptToleranceDays>60</ns0:EarlyReceiptToleranceDays>
+							<ns0:LateReceiptToleranceDays>60</ns0:LateReceiptToleranceDays>
+							<ns0:LastAcceptDate xsi:nil="true"/>
+							<ns0:ReceiptDateExceptionActionCode>NONE</ns0:ReceiptDateExceptionActionCode>
+							<ns0:ReceiptDateExceptionAction>None</ns0:ReceiptDateExceptionAction>
+							<ns0:ShipToExceptionActionCode>WARNING</ns0:ShipToExceptionActionCode>
+							<ns0:ShipToExceptionAction>Warning</ns0:ShipToExceptionAction>
+							<ns0:ReceiptCloseTolerancePercent>0</ns0:ReceiptCloseTolerancePercent>
+							<ns0:OverReceiptTolerancePercent>50</ns0:OverReceiptTolerancePercent>
+							<ns0:OverReceiptActionCode>NONE</ns0:OverReceiptActionCode>
+							<ns0:OverReceiptAction>None</ns0:OverReceiptAction>
+							<ns0:ReceiptRoutingId>3</ns0:ReceiptRoutingId>
+							<ns0:ReceiptRouting>Direct delivery</ns0:ReceiptRouting>
+							<ns0:AllowSubstituteReceiptsFlag>false</ns0:AllowSubstituteReceiptsFlag>
+							<ns0:MatchApprovalLevelCode>2-Way</ns0:MatchApprovalLevelCode>
+							<ns0:InvoiceMatchOptionCode>P</ns0:InvoiceMatchOptionCode>
+							<ns0:InvoiceMatchOption>Order</ns0:InvoiceMatchOption>
+							<ns0:InvoiceCloseTolerancePercent>0</ns0:InvoiceCloseTolerancePercent>
+							<ns0:AccrueAtReceiptFlag>false</ns0:AccrueAtReceiptFlag>
+							<ns0:TransactionBusinessCategoryCode>PURCHASE_TRANSACTION</ns0:TransactionBusinessCategoryCode>
+							<ns0:TransactionBusinessCategory>Purchase Transaction</ns0:TransactionBusinessCategory>
+							<ns0:ProductTypeCode>GOODS</ns0:ProductTypeCode>
+							<ns0:ProductType>Goods</ns0:ProductType>
+							<ns0:ProductFiscalClassificationId xsi:nil="true"/>
+							<ns0:ProductFiscalClassification xsi:nil="true"/>
+							<ns0:ProductCategoryCode xsi:nil="true"/>
+							<ns0:ProductCategory/>
+							<ns0:IntendedUseId xsi:nil="true"/>
+							<ns0:IntendedUse/>
+							<ns0:UserDefinedFiscalClassificationCode xsi:nil="true"/>
+							<ns0:UserDefinedFiscalClassification/>
+							<ns0:TaxClassificationCode xsi:nil="true"/>
+							<ns0:TaxClassification xsi:nil="true"/>
+							<ns0:AssessableAmount currencyCode="USD">3</ns0:AssessableAmount>
+							<ns0:NoteToReceiver xsi:nil="true"/>
+							<ns0:FundsStatusCode xsi:nil="true"/>
+							<ns0:FundsStatus/>
+							<ns0:PurchasingTradingOrganizationId xsi:nil="true"/>
+							<ns0:PurchasingTradingOrganization/>
+							<ns0:PurchasingTradingOrganizationCode xsi:nil="true"/>
+							<ns0:OrchestrationAgreementNumber xsi:nil="true"/>
+							<ns0:OrchestrationAgreementLineNumber xsi:nil="true"/>
+							<ns0:PrimaryTradeRelationshipId xsi:nil="true"/>
+							<ns0:ClosedDate xsi:nil="true"/>
+							<ns0:ReopenFinalCloseDate xsi:nil="true"/>
+							<ns0:WorkOrderId xsi:nil="true"/>
+							<ns0:WorkOrderNumber xsi:nil="true"/>
+							<ns0:RequestedDeliveryDate xsi:nil="true"/>
+							<ns0:PromisedDeliveryDate xsi:nil="true"/>
+							<ns0:RequestedShipDate xsi:nil="true"/>
+							<ns0:PromisedShipDate xsi:nil="true"/>
+							<ns0:LastAcceptableDeliveryDate xsi:nil="true"/>
+							<ns0:LastAcceptableShipDate xsi:nil="true"/>
+							<ns0:OriginalPromisedDeliveryDate xsi:nil="true"/>
+							<ns0:OriginalPromisedShipDate xsi:nil="true"/>
+							<ns0:WorkOrderOperationSequence xsi:nil="true"/>
+							<ns0:WorkOrderOperationId xsi:nil="true"/>
+							<ns0:WorkOrderSubTypeCode xsi:nil="true"/>
+							<ns0:RequestedDeliveryDateUTC xsi:nil="true"/>
+							<ns0:PromisedDeliveryDateUTC xsi:nil="true"/>
+							<ns0:RequestedShipDateUTC xsi:nil="true"/>
+							<ns0:PromisedShipDateUTC xsi:nil="true"/>
+							<ns0:PurchaseOrderDistribution xmlns:ns2="http://xmlns.oracle.com/apps/prc/po/viewDocument/publicFlex/purchaseOrderDistribution/" xmlns:ns3="http://xmlns.oracle.com/apps/prc/po/publicEntity/flex/PJCPoTransDistribution/">
+								<ns0:POHeaderId>604869</ns0:POHeaderId>
+								<ns0:POLineId>1207179</ns0:POLineId>
+								<ns0:LineLocationId>711142</ns0:LineLocationId>
+								<ns0:PODistributionId>626955</ns0:PODistributionId>
+								<ns0:DistributionNumber>1</ns0:DistributionNumber>
+								<ns0:ParentDistributionId xsi:nil="true"/>
+								<ns0:ParentScheduleNumber/>
+								<ns0:ParentDistributionNumber/>
+								<ns0:Quantity unitCode="ECH">1</ns0:Quantity>
+								<ns0:OrderedAmount currencyCode="USD">3</ns0:OrderedAmount>
+								<ns0:TotalTaxAmount currencyCode="USD">0.29</ns0:TotalTaxAmount>
+								<ns0:TotalAmount currencyCode="USD">3.29</ns0:TotalAmount>
+								<ns0:DestinationSubinventory xsi:nil="true"/>
+								<ns0:RequesterId xsi:nil="true"/>
+								<ns0:RequesterName xsi:nil="true"/>
+								<ns0:DeliverToLocationId>300000047013200</ns0:DeliverToLocationId>
+								<ns0:DeliverToLocationCode>Seattle</ns0:DeliverToLocationCode>
+								<ns0:BudgetDate xsi:nil="true"/>
+								<ns0:DeliverToCustomerLocationId xsi:nil="true"/>
+								<ns0:DeliverToCustomerLocation xsi:nil="true"/>
+								<ns0:DeliverToCustomerId xsi:nil="true"/>
+								<ns0:DeliverToCustomer/>
+								<ns0:DeliverToCustomerContactId xsi:nil="true"/>
+								<ns0:DeliverToCustomerContact/>
+								<ns0:Requisition xsi:nil="true"/>
+								<ns0:RequisitionLine xsi:nil="true"/>
+								<ns0:DestinationChargeAccountId xsi:nil="true"/>
+								<ns0:DestinationChargeAccount xsi:nil="true"/>
+								<ns0:POChargeAccountId>300000047301445</ns0:POChargeAccountId>
+								<ns0:POChargeAccount>101.10.60540.120.000.000</ns0:POChargeAccount>
+								<ns0:POAccrualAccountId>300000047301448</ns0:POAccrualAccountId>
+								<ns0:POAccrualAccount>101.10.24220.000.000.000</ns0:POAccrualAccount>
+								<ns0:DestinationVarianceAccountId xsi:nil="true"/>
+								<ns0:DestinationVarianceAccount xsi:nil="true"/>
+								<ns0:POVarianceAccountId>300000047301445</ns0:POVarianceAccountId>
+								<ns0:POVarianceAccount>101.10.60540.120.000.000</ns0:POVarianceAccount>
+								<ns0:ConversionDate xsi:nil="true"/>
+								<ns0:ConversionRate xsi:nil="true"/>
+								<ns0:FundsStatusCode xsi:nil="true"/>
+								<ns0:RecoverableInclusiveTaxAmount currencyCode="USD">0</ns0:RecoverableInclusiveTaxAmount>
+								<ns0:RecoverableExclusiveTaxAmount currencyCode="USD">0</ns0:RecoverableExclusiveTaxAmount>
+								<ns0:NonrecoverableInclusiveTaxAmount currencyCode="USD">0</ns0:NonrecoverableInclusiveTaxAmount>
+								<ns0:NonrecoverableExclusiveTaxAmount currencyCode="USD">0.29</ns0:NonrecoverableExclusiveTaxAmount>
+								<ns0:TaxExclusiveAmount currencyCode="USD">3</ns0:TaxExclusiveAmount>
+								<ns0:FundsStatus/>
+								<ns0:SoldToLegalEntityId>300000046973970</ns0:SoldToLegalEntityId>
+								<ns0:DistributionFlexfield>
+									<ns2:PoDistributionId>626955</ns2:PoDistributionId>
+									<ns2:__FLEX_Context xsi:nil="true"/>
+									<ns2:__FLEX_Context_DisplayValue xsi:nil="true"/>
+									<ns2:_FLEX_NumOfSegments>0</ns2:_FLEX_NumOfSegments>
+								</ns0:DistributionFlexfield>
+								<ns0:DistributionProjectFlexfield xsi:type="ns3:PJCDFFPO_5FPurchase_5FOrder">
+									<ns3:PoDistributionId>626955</ns3:PoDistributionId>
+									<ns3:__FLEX_Context>PO_Purchase_Order</ns3:__FLEX_Context>
+									<ns3:__FLEX_Context_DisplayValue>PO: Order Header</ns3:__FLEX_Context_DisplayValue>
+									<ns3:_FLEX_NumOfSegments>10</ns3:_FLEX_NumOfSegments>
+									<ns3:FLEX_PARAM_BusinessUnit>300000046987012</ns3:FLEX_PARAM_BusinessUnit>
+									<ns3:_PROJECT_ID xsi:nil="true"/>
+									<ns3:_PROJECT_ID_Display xsi:nil="true"/>
+									<ns3:_TASK_ID xsi:nil="true"/>
+									<ns3:_TASK_ID_Display xsi:nil="true"/>
+									<ns3:_EXPENDITURE_ITEM_DATE xsi:nil="true"/>
+									<ns3:_EXPENDITURE_TYPE_ID xsi:nil="true"/>
+									<ns3:_EXPENDITURE_TYPE_ID_Display xsi:nil="true"/>
+									<ns3:_ORGANIZATION_ID xsi:nil="true"/>
+									<ns3:_ORGANIZATION_ID_Display xsi:nil="true"/>
+									<ns3:_CONTRACT_ID xsi:nil="true"/>
+									<ns3:_CONTRACT_ID_Display xsi:nil="true"/>
+									<ns3:_RESERVED_ATTRIBUTE1 xsi:nil="true"/>
+									<ns3:_RESERVED_ATTRIBUTE1_Display xsi:nil="true"/>
+									<ns3:_BILLABLE_FLAG xsi:nil="true"/>
+									<ns3:_BILLABLE_FLAG_Display xsi:nil="true"/>
+									<ns3:_CAPITALIZABLE_FLAG xsi:nil="true"/>
+									<ns3:_CAPITALIZABLE_FLAG_Display xsi:nil="true"/>
+									<ns3:_WORK_TYPE_ID xsi:nil="true"/>
+									<ns3:_WORK_TYPE_ID_Display xsi:nil="true"/>
+								</ns0:DistributionProjectFlexfield>
+							</ns0:PurchaseOrderDistribution>
+							<ns0:ScheduleFlexfield>
+								<ns4:LineLocationId>711142</ns4:LineLocationId>
+								<ns4:__FLEX_Context xsi:nil="true"/>
+								<ns4:__FLEX_Context_DisplayValue xsi:nil="true"/>
+								<ns4:_FLEX_NumOfSegments>0</ns4:_FLEX_NumOfSegments>
+							</ns0:ScheduleFlexfield>
+						</ns0:PurchaseOrderSchedule>
+						<ns0:LineFlexfield>
+							<ns5:PoLineId>1207179</ns5:PoLineId>
+							<ns5:__FLEX_Context xsi:nil="true"/>
+							<ns5:__FLEX_Context_DisplayValue xsi:nil="true"/>
+							<ns5:_FLEX_NumOfSegments>0</ns5:_FLEX_NumOfSegments>
+						</ns0:LineFlexfield>
+					</ns0:PurchaseOrderLine>
+					<ns0:HeaderFlexfield>
+						<ns6:PoHeaderId>604869</ns6:PoHeaderId>
+						<ns6:contractType xsi:nil="true"/>
+						<ns6:contractnumber xsi:nil="true"/>
+						<ns6:__FLEX_Context xsi:nil="true"/>
+						<ns6:_FLEX_NumOfSegments>2</ns6:_FLEX_NumOfSegments>
+					</ns0:HeaderFlexfield>
+				</ns0:Value>
+			</ns2:result>
+		</ns0:getPurchaseOrderResponse>
+	</env:Body>
+</env:Envelope>

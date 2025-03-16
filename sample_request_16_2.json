@@ -1,0 +1,11 @@
+{
+  "parts" : [ {
+    "id" : "part1",
+    "path" : "/PoLines/214",
+    "operation" : "delete"
+  }, {
+    "id" : "part2",
+    "path" : "/PoLines/215",
+    "operation" : "delete"
+  } ]
+}

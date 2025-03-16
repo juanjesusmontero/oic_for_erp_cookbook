@@ -1,0 +1,226 @@
+{
+    "items": [
+        {
+            "BusinessEventCode": "AccountingPeriodClosed",
+            "BusinessEventIdentifier": "Accounting_Period_Closed",
+            "ErpBusinessEventId": 300000181518985
+        },
+        {
+            "BusinessEventCode": "AccountingPeriodOpened",
+            "BusinessEventIdentifier": "Accounting_Period_Opened",
+            "ErpBusinessEventId": 300000181518986
+        },
+        {
+            "BusinessEventCode": "AccountingPeriodReopened",
+            "BusinessEventIdentifier": "Accounting_Period_Reopened",
+            "ErpBusinessEventId": 300000181518987
+        },
+        {
+            "BusinessEventCode": "JournalBatchApproved",
+            "BusinessEventIdentifier": "Journal_Batch_Approved",
+            "ErpBusinessEventId": 300000181518988
+        },
+        {
+            "BusinessEventCode": "JournalBatchPosted",
+            "BusinessEventIdentifier": "Journal_Batch_Posted",
+            "ErpBusinessEventId": 300000181518989
+        },
+        {
+            "BusinessEventCode": "CreditCaseFolderClosureEvent",
+            "BusinessEventIdentifier": "FinArCmCaseFolder_CreditCaseFolder_Closure",
+            "ErpBusinessEventId": 100000371405432
+        },
+        {
+            "BusinessEventCode": "ReceivablesAutoinvoiceCompleted",
+            "BusinessEventIdentifier": "FinArShared_Receivables_Autoinvoice_Completed",
+            "ErpBusinessEventId": 100000371405557
+        },
+        {
+            "BusinessEventCode": "ReceivablesCreditMemoApplied",
+            "BusinessEventIdentifier": "FinArShared_Receivables_Credit_Memo_Applied",
+            "ErpBusinessEventId": 100000371405558
+        },
+        {
+            "BusinessEventCode": "ReceivablesCreditMemoCompleted",
+            "BusinessEventIdentifier": "FinArShared_Receivables_Credit_Memo_Completed",
+            "ErpBusinessEventId": 100000371405559
+        },
+        {
+            "BusinessEventCode": "ReceivablesCreditMemoIncompleted",
+            "BusinessEventIdentifier": "FinArShared_Receivables_Credit_Memo_Incompleted",
+            "ErpBusinessEventId": 100000371405560
+        },
+        {
+            "BusinessEventCode": "ReceivablesInvoiceCompleted",
+            "BusinessEventIdentifier": "FinArShared_Receivables_Invoice_Completed",
+            "ErpBusinessEventId": 100000371405561
+        },
+        {
+            "BusinessEventCode": "ReceivablesInvoiceIncompleted",
+            "BusinessEventIdentifier": "FinArShared_Receivables_Invoice_Incompleted",
+            "ErpBusinessEventId": 100000371405562
+        },
+        {
+            "BusinessEventCode": "ReceivablesInvoicePaid",
+            "BusinessEventIdentifier": "FinArShared_Receivables_Invoice_Paid",
+            "ErpBusinessEventId": 100000371405565
+        },
+        {
+            "BusinessEventCode": "ReceivablesLockboxBatchCompleted",
+            "BusinessEventIdentifier": "FinArShared_Receivables_Lockbox_Batch_Completed",
+            "ErpBusinessEventId": 100000371405568
+        },
+        {
+            "BusinessEventCode": "StandardReceiptApplied",
+            "BusinessEventIdentifier": "FinArShared_Standard_Receipt_Applied",
+            "ErpBusinessEventId": 100000371405572
+        },
+        {
+            "BusinessEventCode": "StandardReceiptCreated",
+            "BusinessEventIdentifier": "FinArShared_Standard_Receipt_Created",
+            "ErpBusinessEventId": 100000371405577
+        },
+        {
+            "BusinessEventCode": "StandardReceiptReversed",
+            "BusinessEventIdentifier": "FinArShared_Standard_Receipt_Reversed",
+            "ErpBusinessEventId": 100000371405580
+        },
+        {
+            "BusinessEventCode": "StandardReceiptDeleted",
+            "BusinessEventIdentifier": "FinArShared_Standard_Receipt_Deleted",
+            "ErpBusinessEventId": 100000371405585
+        },
+        {
+            "BusinessEventCode": "StandardReceiptUnapplied",
+            "BusinessEventIdentifier": "FinArShared_Standard_Receipt_Unapplied",
+            "ErpBusinessEventId": 100000371405588
+        },
+        {
+            "BusinessEventCode": "ExmExpenseReportAuditorApproved",
+            "BusinessEventIdentifier": "Exm_Expense_Report_Auditor_Approved",
+            "ErpBusinessEventId": 100000547973805
+        },
+        {
+            "BusinessEventCode": "ExmExpenseReportHeld",
+            "BusinessEventIdentifier": "Exm_Expense_Report_Held",
+            "ErpBusinessEventId": 100000547973806
+        },
+        {
+            "BusinessEventCode": "ExmExpenseReportHoldReleased",
+            "BusinessEventIdentifier": "Exm_Expense_Report_Hold_Released",
+            "ErpBusinessEventId": 100000547973807
+        },
+        {
+            "BusinessEventCode": "ExmExpenseReportMgrApproved",
+            "BusinessEventIdentifier": "Exm_Expense_Report_Manager_Approved",
+            "ErpBusinessEventId": 100000547973808
+        },
+        {
+            "BusinessEventCode": "ExmExpenseReportPaid",
+            "BusinessEventIdentifier": "Exm_Expense_Report_Paid",
+            "ErpBusinessEventId": 100000547973809
+        },
+        {
+            "BusinessEventCode": "ExmExpenseReportSubmitted",
+            "BusinessEventIdentifier": "Exm_Expense_Report_Submitted",
+            "ErpBusinessEventId": 100000547973810
+        },
+        {
+            "BusinessEventCode": "RevenueContractBatchCreated",
+            "BusinessEventIdentifier": "FinVrmShared_Revenue_Contract_Batch_Created",
+            "ErpBusinessEventId": 100000551690465
+        },
+        {
+            "BusinessEventCode": "ProjectGateApproverStatusChanged",
+            "BusinessEventIdentifier": "PjtProjectPlanCommon_ProjectGateApproverStatusChanged",
+            "ErpBusinessEventId": 300000224307362
+        },
+        {
+            "BusinessEventCode": "ProjectGateStatusChanged",
+            "BusinessEventIdentifier": "PjtProjectPlanCommon_ProjectGateStatusChanged",
+            "ErpBusinessEventId": 300000224307363
+        },
+        {
+            "BusinessEventCode": "CreditCaseFolderCreateEvent",
+            "BusinessEventIdentifier": "FinArCmCaseFolder_CreditCaseFolder_Created",
+            "ErpBusinessEventId": 100000611417829
+        },
+        {
+            "BusinessEventCode": "CreditCaseFolderRefreshEvent",
+            "BusinessEventIdentifier": "FinArCmCaseFolder_CreditCaseFolder_Refresh_Requested",
+            "ErpBusinessEventId": 100000611417830
+        },
+        {
+            "BusinessEventCode": "PlanChangeEvent",
+            "BusinessEventIdentifier": "PjfFoundationCommon_PlanChangeEvent",
+            "ErpBusinessEventId": 100000607260695
+        },
+        {
+            "BusinessEventCode": "ProjectStatusEvent",
+            "BusinessEventIdentifier": "PjfFoundationCommon_ProjectStatusEvent",
+            "ErpBusinessEventId": 100000607260696
+        },
+        {
+            "BusinessEventCode": "PublishProgressEvent",
+            "BusinessEventIdentifier": "PjfFoundationCommon_PublishProgressEvent",
+            "ErpBusinessEventId": 100000607260697
+        },
+        {
+            "BusinessEventCode": "ProjectResourceRequestStatusChanged",
+            "BusinessEventIdentifier": "PjrProjectResourceRequest_StatusChanged",
+            "ErpBusinessEventId": 100000607260698
+        },
+        {
+            "BusinessEventCode": "ProjectDeliverableStatusChanged",
+            "BusinessEventIdentifier": "PjtProjectPlantCommon_ProjectDeliverableStatusChanged",
+            "ErpBusinessEventId": 100000607260699
+        },
+        {
+            "BusinessEventCode": "ProjectMilestoneCompletion",
+            "BusinessEventIdentifier": "PjtProjectPlantCommon_ProjectMilestoneCompletion",
+            "ErpBusinessEventId": 100000607260700
+        },
+        {
+            "BusinessEventCode": "ProjectTaskProgressStatusChanged",
+            "BusinessEventIdentifier": "PjtProjectPlantCommon_ProjectTaskProgressStatusChanged",
+            "ErpBusinessEventId": 100000607260701
+        },
+        {
+            "BusinessEventCode": "UnplannedProjectCost",
+            "BusinessEventIdentifier": "PjoBudgetsAndForecasts_UnplannedProjectCost",
+            "ErpBusinessEventId": 100000729161595
+        },
+        {
+            "BusinessEventCode": "ProjectChangeOrderStatusChanged",
+            "BusinessEventIdentifier": "PjtProjectPlanCommon_ProjectChangeOrderStatusChanged",
+            "ErpBusinessEventId": 100001387567432
+        },
+        {
+            "BusinessEventCode": "ProjectIssueStatusChanged",
+            "BusinessEventIdentifier": "PjtProjectPlanCommon_ProjectIssueStatusChanged",
+            "ErpBusinessEventId": 100001387567433
+        },
+        {
+            "BusinessEventCode": "ProjectWorkPlanBaselineCreated",
+            "BusinessEventIdentifier": "PjtProjectPlanCommon_ProjectWorkPlanBaselineCreated",
+            "ErpBusinessEventId": 100001387567434
+        },
+        {
+            "BusinessEventCode": "PlanStatusChangedEvent",
+            "BusinessEventIdentifier": "PjoBudgetsAndForecasts_PlanStatusChangedEvent",
+            "ErpBusinessEventId": 100001387567435
+        }
+    ],
+    "count": 42,
+    "hasMore": false,
+    "limit": 500,
+    "offset": 0,
+    "links": [
+        {
+            "rel": "self",
+            "href": "https://dabpqy.ds-fa.oraclepdemos.com:443/fscmRestApi/resources/11.13.18.05/erpBusinessEvents",
+            "name": "erpBusinessEvents",
+            "kind": "collection"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+https://eqjz.ds-fa.oraclepdemos.com/fscmService/ErpObjectDFFUpdateService?WSDL
+<!--DOCID  METALINK (Doc ID 2546651.1) -->
+<!--
+https://cloudcustomerconnect.oracle.com/posts/a2489bd8fc
+ Line Number in User Key A
+ Invoice Number in User Key B
+ Business Unit Name in User Key C
+ Supplier Name in User Key D
+ Supplier Number in User Key E
+ Supplier Site Name in User Key F
+ Invoice Identifier in User Key G-VOUCHER NUMBER?
+ -->
+<soap:Body>
+	<ns1:updateDffEntityDetails xmlns:ns1="http://xmlns.oracle.com/apps/financials/commonModules/shared/model/erpIntegrationService/types/">
+		<ns1:document xmlns:ns2="http://xmlns.oracle.com/apps/financials/commonModules/shared/model/erpIntegrationService/">
+			<ns2:Content>NULL</ns2:Content>
+			<ns2:FileName>#NULL</ns2:FileName>
+			<ns2:ContentType>#NULL</ns2:ContentType>
+			<ns2:DocumentTitle>#NULL</ns2:DocumentTitle>
+			<ns2:DocumentAuthor>#NULL</ns2:DocumentAuthor>
+			<ns2:DocumentSecurityGroup>#NULL</ns2:DocumentSecurityGroup>
+			<ns2:DocumentAccount>#NULL </ns2:DocumentAccount>
+			<ns2:DocumentName/>
+			<ns2:DocumentId/>
+		</ns1:document>
+		<ns1:operationMode>single</ns1:operationMode>
+		<ns1:object xmlns:ns2="http://xmlns.oracle.com/apps/financials/commonModules/shared/model/erpIntegrationService/">
+			<ns2:EntityName>Payables Invoice Lines</ns2:EntityName>
+			<ns2:ContextValue>#NULL</ns2:ContextValue>
+			<ns2:UserKeyA>1</ns2:UserKeyA>
+			<ns2:UserKeyB>TEST00012</ns2:UserKeyB>
+			<ns2:UserKeyC>ZZZ XXX Spain SAU</ns2:UserKeyC>
+			<ns2:UserKeyD>IBERICA, S.R.L.</ns2:UserKeyD>
+			<ns2:UserKeyE>11622</ns2:UserKeyE>
+			<ns2:UserKeyF>ACREEDOR</ns2:UserKeyF>
+			<ns2:UserKeyG>#NULL</ns2:UserKeyG>
+			<ns2:UserKeyH>#NULL</ns2:UserKeyH>
+			<ns2:DFFAttributes>{"ATTRIBUTE4":"123123-1"}</ns2:DFFAttributes>
+		</ns1:object>
+		<ns1:notificationCode>#NULL</ns1:notificationCode>
+		<ns1:callbackURL>#NULL</ns1:callbackURL>
+	</ns1:updateDffEntityDetails>
+</soap:Body>
+</soap:Envelope>

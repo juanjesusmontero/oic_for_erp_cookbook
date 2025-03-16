@@ -1,0 +1,13 @@
+{
+  "parts" : [ {
+    "id" : "part1",
+    "path" : "https://oic-vbcs-nextpre-gen3-vb-xxx.builder.eu-frankfurt-1.ocp.oraclecloud.com:443/ic/builder/design/xxx/1.0.4/resources/data/PoLines/216",
+    "operation" : "delete",
+    "payload" : null
+  }, {
+    "id" : "part2",
+    "path" : "https://oic-vbcs-nextpre-gen3-vb-xxx.builder.eu-frankfurt-1.ocp.oraclecloud.com:443/ic/builder/design/xxx/1.0.4/resources/data/PoLines/217",
+    "operation" : "delete",
+    "payload" : null
+  } ]
+}

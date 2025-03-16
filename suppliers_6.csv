@@ -1,0 +1,7 @@
+name,supplierType,taxOrganizationType,businessRelationship,status
+1Supplier1-Tim,Supplier,Corporation,SPEND_AUTHORIZED,Draft
+2Supplier2-Carlosoo,Supplier,Corporation,SPEND_AUTHORIZED,Draft
+3Supplier1-Tim,Supplier,Corporation,SPEND_AUTHORIZED,Draft
+4Supplier2-Carlosoo,Supplier,Corporation,SPEND_AUTHORIZED,Draft
+5Supplier1-Tim,Supplier,Corporation,SPEND_AUTHORIZED,Draft
+6Supplier2-Carlosoo,Supplier,Corporation,SPEND_AUTHORIZED,Draft

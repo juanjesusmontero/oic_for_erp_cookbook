@@ -1,0 +1,23 @@
+{
+    "InvoiceNumber": "8ddsRRRAA300008",
+    "InvoiceCurrency": "EUR",
+    "InvoiceAmount": 200,
+    "InvoiceType": "Standard",
+    "InvoiceDate": "2023-10-01",
+    "AccountingDate": "2023-07-01",
+    "BusinessUnit": "US1 Business Unit",
+    "Supplier": "ABC Consulting",
+    "SupplierSite": "ABC US1",
+    "InvoiceGroup": "84300000001",
+    "Description": "Description XX",
+    "invoiceLines": [
+        {
+            "LineNumber": 1,
+            "LineAmount": 140
+        },
+        {
+            "LineNumber": 2,
+            "LineAmount": 60
+        }
+    ]
+}

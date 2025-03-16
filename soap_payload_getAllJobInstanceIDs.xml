@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://xmlns.oracle.com/oxp/service/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:getAllJobInstanceIDs>
+         <v2:submittedJobId>503405</v2:submittedJobId>
+			<v2:userID>fin_impl</v2:userID>
+			<v2:password>wm#qK8*9</v2:password>
+      </v2:getAllJobInstanceIDs>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,24 @@
+{
+	"status": "xx",
+	"message": "xx",
+	"records": [
+		{
+			"UserLogin": "xx",
+			"RoleName": "xx",
+			"RoleCode": "xx",
+			"RoleId": "xx",
+			"UserId": "xx",
+			"PrivilegeCodes": "xx",
+			"PrivilegeNames": "xx"
+		},
+		{
+			"UserLogin": "xx",
+			"RoleName": "xx",
+			"RoleCode": "xx",
+			"RoleId": "xx",
+			"UserId": "xx",
+			"PrivilegeCodes": "xx",
+			"PrivilegeNames": "xx"
+		}
+	]
+}

@@ -1,0 +1,7 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soapenv:Body>
+      <scheduleReportResponse xmlns="http://xmlns.oracle.com/oxp/service/v2">
+         <scheduleReportReturn>503259</scheduleReportReturn>
+      </scheduleReportResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

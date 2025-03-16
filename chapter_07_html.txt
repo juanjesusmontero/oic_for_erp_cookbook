@@ -1,0 +1,58 @@
+<html>
+	<p style="color: #000000; font-size: 14px; font-weight: normal; font-family: Arial, Helvetica, sans-serif;">Dear Receiver,</p>
+	<p style="color: #000000; font-size: 14px; font-weight: normal; font-family: Arial, Helvetica, sans-serif;">Please find the details of the Integration Run below</p>
+	<table style="border-collapse: collapse; text-align: left;" border="1" cellspacing="0" cellpadding="2">
+		<tbody>
+			<tr>
+				<td style="padding: 3px 10px; background-color: #006699; color: #ffffff; font-size: 14px; width:150px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; border-left: 1px solid #9E9F9F;">
+					<p>
+						<strong>Start Time</strong>
+					</p>
+				</td>
+				<td style="padding: 3px 10px; color: #00557f; border-left: 1px solid #E1EEF4; font-size: 14px; font-family: Arial, Helvetica, sans-serif; font-weight: normal; width:200px;" align="left" valign="top">
+					<p>{StartTime}</p>
+				</td>
+			</tr>
+			<tr>
+				<td style="padding: 3px 10px; background-color: #006699; color: #ffffff; font-size: 14px; width:150px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; border-left: 1px solid #9E9F9F;">
+					<p>
+						<strong>End Time</strong>
+					</p>
+				</td>
+				<td style="padding: 3px 10px; color: #00557f; border-left: 1px solid #E1EEF4; font-size: 14px; font-family: Arial, Helvetica, sans-serif; font-weight: normal; width:200px;" align="left" valign="top">
+					<p>{EndTime}</p>
+				</td>
+			</tr>
+			<tr>
+				<td style="padding: 3px 10px; background-color: #006699; color: #ffffff; font-size: 14px; width:150px; font-weight: bold; font-family: Arial, Helvetica, sans-serif ; border-left: 1px solid #9E9F9F;">
+					<p>
+						<strong>Flow Id</strong>
+					</p>
+				</td>
+				<td style="padding: 3px 10px; color: #00557f; border-left: 1px solid #E1EEF4; font-size: 14px; font-family: Arial, Helvetica, sans-serif; font-weight: normal; width:200px;" align="left" valign="top">
+					<p>{FlowId}</p>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<p>&nbsp;</p>
+	<table style="border-collapse: collapse; text-align: left; width:600px;" border="1" cellspacing="0" cellpadding="2">
+		<thead>
+			<tr>
+				<th style="padding: 3px 10px; background-color: #006699; color: #ffffff; font-size: 14px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; border-left: 1px solid #9E9F9F; width:300px;">Integration Name</th>
+				<th style="padding: 3px 10px; background-color: #006699; color: #ffffff; font-size: 14px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; border-left: 1px solid #0070A8; width:300px;">Message</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td style="padding: 3px 10px; color: #00557f; border-left: 1px solid #9E9F9F; font-size: 14px; font-family: Arial, Helvetica, sans-serif; font-weight: normal;" valign="top">
+						<p>Item Inbound Integration</p>
+					</td>
+					<td style="padding: 3px 10px; color: #00557f; border-left: 1px solid #9E9F9F; font-size: 14px; font-family: Arial, Helvetica, sans-serif; font-weight: normal;" valign="top">
+						<p>Please find the details of Item Inbound Integration to Oracle and refer to the attached file for more details</p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>&nbsp;</p>
+		<p style="color: #000000; font-size: 14px; font-weight: normal; font-family: Arial, Helvetica, sans-serif;"/>
+	</html>
